@@ -14,10 +14,6 @@ import com.firebase.ui.database.FirebaseListAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
-/**
- * Created by ASUS on 11-01-2017.
- */
-
 public class p_chat extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
