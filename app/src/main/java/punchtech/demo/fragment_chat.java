@@ -26,6 +26,7 @@ public class fragment_chat extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View v = inflater.inflate(R.layout.activity_creategroup, container, false);
+        
         ListView listOfMessages = (ListView) v.findViewById(R.id.list_of_messages);
         final EditText input = (EditText) v.findViewById(R.id.input);
         Button btn = (Button) v.findViewById(R.id.fab_btn);
